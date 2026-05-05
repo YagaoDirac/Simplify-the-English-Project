@@ -1,0 +1,213 @@
+Pinyin for ChEnglish
+
+Author:YagaoDirac
+
+https://github.com/YagaoDirac/Simplify-the-English-Project
+
+
+
+[[[[Notice
+
+Although this Pinyin project provides a new grammar and spelling system, but this document uses original English spelling. Anything written in the new form is in a ().
+
+This new design is not tested yet. I don't guarantee anything.
+
+
+
+[[[[What's This
+
+This is a new version of English. It simplified the grammar and standardized the spelling according to some major American accent.
+
+
+
+[[[[Background
+
+In recent years, a universal natural language that is easy to learn and easy to use is more needed.
+English is the most widely used language with a lot good designs. Updating English seems to be the most intuitive idea.
+
+
+
+[[[[Main Content
+
+[[[Grammar Adjustments
+
+No plural form.
+(one person, two person, one apple, two apple.)
+
+No third-person singular present tense. So you don't need to add s to the verbs.
+(I do. He do.)
+
+No past tense. The old past tense grammar means "this behavior has finished" now, which is the old "perfect tense".
+No verb-ing form, use adverbial of time.
+(I do today. I do yesterday.) for "I do today. I did yesterday."
+(I did yesterday.) for "I have done yesterday."
+(I do now.) for "I'm doing now."
+
+Verbs only have original form and -ed form.
+(read) reidid
+(wrote, written) now only wraitid
+(went, gone) now only gouid.
+(did, done) now only duid.
+Be-verb has only bi and biid.
+(Spelling adjustment see below)
+
+
+
+[[[Spelling Adjustment
+
+New spelling is a pinyin style of one of the most popular American accent.
+The upside of pinyin is, it maps pronunciation to spelling one to one, with very few exceptions. My target is to make a pinyin system for English with no exceptions and no confusions.
+
+In new design, pronunciation of vowel letters in Alphabet also changed. 
+A is similar to the a in "am, an, and, add"
+E is similar to the e in "get"
+I is similar to the i in "tick"
+O is similar to the o in "got"
+U is similar to the vowel in "wood" but short.
+
+Here's a table for some of the new rule.
+Original on the left, new on the right.
+Notice, it's only about the pronunciation. 
+
+A(original sound in Alphabet)	ei
+E(original sound in Alphabet)	ii
+I(original sound in Alphabet)	ai
+O(original sound in Alphabet)	ou???
+U(original sound in Alphabet)	iu
+
+ew(in new)	iu
+ea	ee
+ea(in weak) 	ei
+ir(in skirt)	er
+oo	uu
+oar(in board) 	oo/ooer
+
+sch	sk
+kn	n
+pro	prou
+pre	pri
+pri	prai
+wh	w
+
+tion	tion
+cion	tion
+sion	tion
+ce	s
+c(but reads k)	k
+cia(usually inside a word)	sei
+
+some examples:
+Original on the left, new on the right if it's different from the original spelling
+Know issues are:
+1, no distinguishing for u/ar, the short/long ar.
+2, l after vowel is a bit confusing.
+3, the new version simply doesn't look like English anymore. It's so weird.
+
+the	
+be	bi	bied
+to	tu
+of	
+and	ad
+a	e
+in	
+that	
+have	hav
+I	Ai
+it	
+for	fo/foer
+not	
+on	arn
+with	
+he	hi
+hi	hai
+as	
+you	iu/yiu
+do	du	duid
+at	
+this	this
+but	bart
+his	
+by	bai
+from	franm
+they
+we	we/wii
+say	sei
+her
+she	shii
+or	o/oer
+an	
+will	will/wiou
+my	mai
+one	wan
+all	oo
+would	wud
+wood	wuud
+there	theer
+their	theer
+what	wart
+so	sou
+up	arp
+out	aot
+if	
+about	abaot
+who	huu
+get	
+which	wich
+go	gou
+me	mii
+when	wen
+make	maik
+can	kan
+like	laik
+time	taim
+no	nou
+just	jarst
+him	
+know	nou
+no	no/nou???
+take	teik
+people	piipou
+into	intu
+year	yier
+your	yoer
+good	guud
+some	sanm
+could	cuud
+them	
+see	sii
+other	arther
+than	
+then
+now	nau
+look	luuk
+only
+
+guarantee	ganruntee
+pronunciation	pronansetion	
+colar	carler
+boat	bout
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
