@@ -65,6 +65,12 @@ I is similar to the i in "tick"
 O is similar to the o in "got"
 U is similar to the vowel in "wood" but short.
 
+<added in 0.1.1>
+the vowel part must only consist with vowel letters(aeiou), except for ar, er, because they aligns with the sound.
+
+I'm considering to remove some rarely used or repeating letters, or assign them to other purpose. They are j q x z. And I believe c should be splitted into s and k. Either s+k, or s+c, the left one is removed. And y and i are the same. 
+</added in 0.1.1>
+
 Here's a table for some of the new rule.
 Original on the left, new on the right.
 Notice, it's only about the pronunciation. 
@@ -75,6 +81,7 @@ I(original sound in Alphabet)	ai
 O(original sound in Alphabet)	ou???
 U(original sound in Alphabet)	iu
 
+ar(but short)	aa<added in 0.1.1>
 ew(in new)	iu
 ea	ee
 ea(in weak) 	ei
@@ -187,6 +194,34 @@ pronunciation	pronansetion
 colar	carler
 boat	bout
 
+maybe I'll continue.
+////////////////////////////////////////
+
+come
+its
+over
+think
+also
+back
+after
+use
+two
+how
+our
+work
+first
+well
+way
+even
+new
+want
+because
+any
+these
+give
+day
+most
+us
 
 
 
@@ -198,6 +233,125 @@ boat	bout
 
 
 
+
+
+
+
+
+below is old part. it will probably get removed in the future.
+/////////////////////////////////////////
+
+
+But now it's step 1, I only plan to change part of them and left some exceptions.
+
+If a word is grammatical particles, it's untouched for now.
+If a word is preposition, it's untouch for now.
+If a word is no more then 3 letters, it's untouch for now. If it's a verb, the length is calculated with the original form.
+
+
+
+original on the left, new on the right.
+
+the	    
+be	
+to	
+of	
+and	
+a	
+in	
+that	
+have	
+I
+it	
+for	
+not	
+on	
+with
+he
+as
+you
+do
+at
+this
+but
+his
+by
+from
+they
+we
+say
+her
+she
+or
+an
+will
+my
+one
+all
+would
+there
+their
+what
+so
+up
+out
+if
+about
+who
+get
+which
+go
+me
+when
+make
+can
+like
+time
+no
+just
+him
+know
+take
+people
+into
+year
+your
+good
+some
+could
+them
+see
+other
+than
+then
+now
+look
+only
+come
+its
+over
+think
+also
+back
+after
+use
+two
+how
+our
+work
+first
+well
+way
+even
+new
+want
+because
+any
+these
+give
+day
+most
+us
 
 
 
