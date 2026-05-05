@@ -2,9 +2,9 @@ from typing import Literal, Mapping
 
 type Version_type = Literal["0.1.0"]
 type Sound_type = Literal[
-        "b","d","ds","f","g",
+        "b","ch","d","ds","f","g",
         "h","k","l","m","n",
-        "p","r","s","t","th","ts",
+        "p","r","s","sh","t","th","ts",
         "v","w",
         "A_ei","an","ar_short","ar",
         "E_ee","e","er",
@@ -13,9 +13,9 @@ type Sound_type = Literal[
         "U_iu","oo_short","oo",
         ]
 SPELLING_TABLE_0_1_0:Mapping[Sound_type,str] = {
-        "b":"b", "d":"d", "ds":"ds", "f":"f", "g":"g",
+        "b":"b", "ch":"ch", "d":"d", "ds":"ds", "f":"f", "g":"g",
         "h":"h", "k":"k", "l":"l", "m":"m", "n":"n",
-        "p":"p", "r":"r", "s":"s", "t":"t", "th":"th", "ts":"ts",
+        "p":"p", "r":"r", "s":"s", "sh":"sh", "t":"t", "th":"th", "ts":"ts",
         "v":"v", "w":"w",
         "A_ei":"ei", "an":"a", "ar_short":"aa", "ar":"ar",
         "E_ee":"ii", "e":"e", "er":"er",
@@ -23,18 +23,6 @@ SPELLING_TABLE_0_1_0:Mapping[Sound_type,str] = {
         "O_ou":"ou", "o":"o", "or_":"oer",
         "U_iu":"iu", "oo_short":"u", "oo":"uu",
 }
-if "some meta programming" and False:
-    def ____some_meta_programming():
-        for key in SPELLING_TABLE_0_1_0.keys():
-            print(f'''    def {key}(self):
-        self.add_sound("{key}")
-        return self''')
-        return
-    ____some_meta_programming()
-    pass
-
-
-
 def get_spelling_table(version:Version_type)->Mapping[Sound_type,str]:
     match version:
         case "0.1.0":
@@ -43,6 +31,17 @@ def get_spelling_table(version:Version_type)->Mapping[Sound_type,str]:
             assert False, "bad param:version"
             pass
     pass#end of function.
+if "some meta programming" and True:
+    def ____some_meta_programming():
+        for key in get_spelling_table("0.1.0").keys():
+            print(f'''        def {key}(self):
+            self.add_sound("{key}")
+            return self''')
+        return
+    ____some_meta_programming()
+    pass
+
+
 
 class NewSpelling:
     data:list[Sound_type]
@@ -67,103 +66,109 @@ class NewSpelling:
 
     if "to fold":
         def b(self):
-            self.__add_sound("b")
+            self.add_sound("b")
+            return self
+        def ch(self):
+            self.add_sound("ch")
             return self
         def d(self):
-            self.__add_sound("d")
+            self.add_sound("d")
             return self
         def ds(self):
-            self.__add_sound("ds")
+            self.add_sound("ds")
             return self
         def f(self):
-            self.__add_sound("f")
+            self.add_sound("f")
             return self
         def g(self):
-            self.__add_sound("g")
+            self.add_sound("g")
             return self
         def h(self):
-            self.__add_sound("h")
+            self.add_sound("h")
             return self
         def k(self):
-            self.__add_sound("k")
+            self.add_sound("k")
             return self
         def l(self):
-            self.__add_sound("l")
+            self.add_sound("l")
             return self
         def m(self):
-            self.__add_sound("m")
+            self.add_sound("m")
             return self
         def n(self):
-            self.__add_sound("n")
+            self.add_sound("n")
             return self
         def p(self):
-            self.__add_sound("p")
+            self.add_sound("p")
             return self
         def r(self):
-            self.__add_sound("r")
+            self.add_sound("r")
             return self
         def s(self):
-            self.__add_sound("s")
+            self.add_sound("s")
+            return self
+        def sh(self):
+            self.add_sound("sh")
             return self
         def t(self):
-            self.__add_sound("t")
+            self.add_sound("t")
             return self
         def th(self):
-            self.__add_sound("th")
+            self.add_sound("th")
             return self
         def ts(self):
-            self.__add_sound("ts")
+            self.add_sound("ts")
             return self
         def v(self):
-            self.__add_sound("v")
+            self.add_sound("v")
             return self
         def w(self):
-            self.__add_sound("w")
+            self.add_sound("w")
             return self
         def A_ei(self):
-            self.__add_sound("A_ei")
+            self.add_sound("A_ei")
             return self
         def an(self):
-            self.__add_sound("an")
+            self.add_sound("an")
             return self
         def ar_short(self):
-            self.__add_sound("ar_short")
+            self.add_sound("ar_short")
             return self
         def ar(self):
-            self.__add_sound("ar")
+            self.add_sound("ar")
             return self
         def E_ee(self):
-            self.__add_sound("E_ee")
+            self.add_sound("E_ee")
             return self
         def e(self):
-            self.__add_sound("e")
+            self.add_sound("e")
             return self
         def er(self):
-            self.__add_sound("er")
+            self.add_sound("er")
             return self
         def I_ai(self):
-            self.__add_sound("I_ai")
+            self.add_sound("I_ai")
             return self
         def i(self):
-            self.__add_sound("i")
+            self.add_sound("i")
             return self
         def O_ou(self):
-            self.__add_sound("O_ou")
+            self.add_sound("O_ou")
             return self
         def o(self):
-            self.__add_sound("o")
+            self.add_sound("o")
             return self
         def or_(self):
-            self.__add_sound("or_")
+            self.add_sound("or_")
             return self
         def U_iu(self):
-            self.__add_sound("U_iu")
+            self.add_sound("U_iu")
             return self
         def oo_short(self):
-            self.__add_sound("oo_short")
+            self.add_sound("oo_short")
             return self
         def oo(self):
-            self.__add_sound("oo")
+            self.add_sound("oo")
             return self
         pass#/ "to fold"
     
